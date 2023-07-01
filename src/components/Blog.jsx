@@ -13,7 +13,7 @@ const Blog = () => {
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
           date: 'Feb 17, 2023',
           datetime: '2020-03-16',
-          category: { title: 'LeetCode', href: '/project_26/index.html' },
+          category: { title: 'LeetCode', href: 'https://fergusonleetcode-clone.netlify.app/' },
           author: {
             name: 'Ferguson Tetteh',
             role: 'Co-Founder / CTO',
