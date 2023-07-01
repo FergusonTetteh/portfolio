@@ -14,8 +14,9 @@
 }
 
 .float-right li {
-  margin: 2rem;
+  margin: 20px;
   font-weight: 600;
+  font-size: small;
 }
 
 .float-right li:hover {
@@ -132,4 +133,26 @@
 
 .about-right p {
   font-size: 11px;
+}
+
+/* portfolio styling */
+.portfolio {
+  text-transform: uppercase;
+  color: rgb(66, 66, 248);
+  font-weight: 650;
+  font-size: 10px;
+}
+
+.portfolioo {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.port {
+  text-align: left;
+}
+
+
+.blog {
+  text-align: left;
 }

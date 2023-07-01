@@ -3,6 +3,8 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import PersonalDetails from "./components/PersonalDetails";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Blog from "./components/Blog";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,26 +12,12 @@ function App() {
   return (
     <>
       <NavBar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <PersonalDetails />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <About />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Portfolio />
+      <Blog />
+      <Blog />
+      <Blog />
     </>
   );
 }
