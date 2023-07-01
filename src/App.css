@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* navbar styling */
+.float-right {
+  position: relative;
+  display: flex;
+  flex-direction: row; 
+  float: right;
+}
+
+.float-right li {
+  margin: 2rem;
+  font-weight: 600;
+}
+
+.float-right li:hover {
+  cursor: pointer;
+}
+
+
+/* personal details styling */
+.outer-box {
+    height: 350px;
+    width: 600px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left-box {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: small;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin {
+  height: 20px;
+}
+
+.github {
+  height: 20px;
+}
+
+.top-right-box {
+  background-image: url("https://w7.pngwing.com/pngs/184/113/png-transparent-user-profile-computer-icons-profile-heroes-black-silhouette-thumbnail.png");
+  background-position: center;
+}
+
+
+.bottom-box {
+  font-weight: 500;
+  font-size: small;
+}
+
+.bottom-box ul {
+  display: flex;
+  flex-direction: row; 
+  float: left;
+}
+
+/* about page styling */
+.aboutbox {
+  /* border: 1px solid burlywood; */
+  height: 350px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .about-left {
+} */
+
+.about-right {
+  /* border: 1px solid rgb(41, 199, 78); */
+  text-align:left ;
+  margin-left: 50px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.about-img {
+  border-radius: 10px;
+  position: relative;
+  background-image: url("https://ii3.pepperfry.com/media/catalog/product/z/a/494x544/zanko-office-table-in-leon-teak-finish-by-neudot-zanko-office-table-in-leon-teak-finish-by-neudot-fyh7up.jpg");
+  background-position: center;
+}
+
+.about-mini-img {
+  background-color: aliceblue;
+  border-radius: 50%;
+  position: relative;
+  bottom: -70%;
+  right: -70%;
+}
+
+.about-mini-img span {
+  font-size: 70px;
+  text-align: center;
+}
+/* texts in the about box */
+.about-me {
+  text-transform: uppercase;
+  color: rgb(66, 66, 248);
+  font-weight: 650;
+  font-size: 10px;
+}
+
+.about-right h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.about-right p {
+  font-size: 11px;
+}
