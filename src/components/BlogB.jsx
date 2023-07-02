@@ -7,19 +7,19 @@ const Blog = () => {
     const posts = [
         {
           id: 1,
-          title: 'A clone of a learning platform',
+          title: 'A wordpress website actively running on a server',
           href: '#',
           description:
-            'Explore is a well-organized tool that helps you get the most out of LeetCode by providing structure to guide your progress towards the next step in your programming career.',
+            'A highly collaborative and supportive team, coming together on every project to ensure our clients get the very best result. We aim to deliver our very best work every single day across our services.',
           date: 'Feb 17, 2023',
           datetime: '2020-03-16',
-          category: { title: 'LeetCode', href: 'https://fergusonleetcode-clone.netlify.app/' },
+          category: { title: 'Aserf WordPress', href: 'http://aserf.local/' },
           author: {
             name: 'Ferguson Tetteh',
             role: 'Co-Founder / CTO',
             href: '#',
             imageUrl:
-              'https://support.leetcode.com/hc/article_attachments/4409909829907/mceclip1.png',
+              'https://cdn3.wpbeginner.com/wp-content/uploads/2017/02/changetheme.jpg',
           },
         },
         // More posts...

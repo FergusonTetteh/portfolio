@@ -21,6 +21,8 @@
 
 .float-right li:hover {
   cursor: pointer;
+  border-bottom: 2px solid rgb(66, 66, 248);
+  transition: 0.4s;
 }
 
 

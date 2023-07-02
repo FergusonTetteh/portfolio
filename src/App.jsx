@@ -5,6 +5,7 @@ import PersonalDetails from "./components/PersonalDetails";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
+import BlogB from "./components/BlogB" ;
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,8 +17,7 @@ function App() {
       <About />
       <Portfolio />
       <Blog />
-      <Blog />
-      <Blog />
+      <BlogB />
     </>
   );
 }
