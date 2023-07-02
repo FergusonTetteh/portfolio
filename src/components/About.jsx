@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="my-36">
-      <div className="aboutbox">
+      <div className="aboutbox" id="about">
         <div className="about-left w-1/2 h-5/6 m-3">
           <div className="about-img h-4/5 m-3">
             <div className="about-mini-img h-1/2 w-1/2 m-2">

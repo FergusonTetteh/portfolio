@@ -158,3 +158,79 @@
 .blog {
   text-align: left;
 }
+
+/* contact styling */
+.contact-d-flex {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+}
+
+.contact-d-flex:hover {
+  cursor: pointer;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-texts {
+  text-align: left;
+}
+
+.contact-texts h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact-texts p {
+  font-size: 11px;
+}
+
+/* footer styling */
+.footer {
+  background-color: rgb(31, 28, 28);
+  width: 100vh;
+  height: 40px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.footer h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+@media (max-width:664px) {
+  #root {
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .float-right {
+    background-color: rgb(31, 28, 28);
+    width: 100vw;
+  }
+
+  .float-right li {
+    color: white;
+  }
+  
+
+  .footer {
+    background-color: rgb(31, 28, 28);
+    width: 660px;
+    font-size: small;
+    text-align: center;
+  }
+}

@@ -1,7 +1,7 @@
 const PersonalDetails = () => {
   return (
     <div className="my-32">
-      <div className="outer-box ">
+      <div className="outer-box" >
         <div className="top h-4/6  m-3">
           <div className="top-left-box h-28 max-w-xs w-96 m-5">
             Front-End React <br />

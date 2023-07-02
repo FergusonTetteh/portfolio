@@ -1,6 +1,6 @@
 const Portfolio = () => {
     return (  
-        <div className="port">
+        <div className="port" id="project">
             <span className="portfolio m-2">portfolio</span>
             <h3 className="portfolioo m-2">
               Each project is a unique piece of development 🦠
